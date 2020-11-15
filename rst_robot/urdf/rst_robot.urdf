@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot name="multipleshapes">
+
+    <material name="yellow">
+        <color rgba="1.0 1.0 0 1.0"/>
+    </material>
+
+  <link name="base_link">
+    <visual>
+    <origin rpy="0.0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="package://rst_robot/mesches/mesches_done/base_rst.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <mesh filename="package://rst_robot/mesches/mesches_done/roue_motrice.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <mesh filename="package://rst_robot/mesches/mesches_done/roue_motrice.dae"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="base_to_right_wheel" type="continuous">
+    <origin xyz="0.092 0 0.02125" rpy="0 3.1415 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="base_link"/>
+    <child link="right_wheel"/>
+  </joint>
+
+  <joint name="base_to_left_wheel" type="continuous">
+    <origin xyz="-0.092 0 0.02125" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <parent link="base_link"/>
+    <child link="left_wheel"/>
+  </joint>
+
+</robot>

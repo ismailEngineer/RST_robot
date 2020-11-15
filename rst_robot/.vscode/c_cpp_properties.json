@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ismail/catkin_ezzayra/devel/include/**",
+                "/home/ismail/catkin_learn_ws/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/ismail/catkin_ezzayra/src/bot/bot_real/bot_interface/include/**",
+                "/home/ismail/catkin_learn_ws/src/darknet_ros/include/**",
+                "/home/ismail/catkin_learn_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+                "/home/ismail/catkin_learn_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+                "/home/ismail/catkin_learn_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+                "/home/ismail/catkin_ezzayra/src/gps_umd/gps_common/include/**",
+                "/home/ismail/catkin_learn_ws/src/nodelet_core/nodelet/include/**",
+                "/home/ismail/catkin_learn_ws/src/nodelet_core/nodelet_topic_tools/include/**",
+                "/home/ismail/catkin_learn_ws/src/penguin/object_detection_and_processing/include/**",
+                "/home/ismail/catkin_learn_ws/src/pointcloud_to_laserscan/include/**",
+                "/home/ismail/catkin_learn_ws/src/pub_and_sub_test/include/**",
+                "/home/ismail/catkin_learn_ws/src/robot_state_publisher/include/**",
+                "/home/ismail/catkin_resto/src/rst_robot/include/**",
+                "/home/ismail/catkin_ezzayra/src/joystick_drivers/wiimote/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
